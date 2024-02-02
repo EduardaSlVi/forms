@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+    <html lang="pt-br">
+    <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>Formulário</title>
+      <style>
+        table {
+          border-collapse: collapse;
+          width: 100%;
+        }
+        th, td {
+          border: 1px solid #5a0303;
+          padding: 8px;
+          text-align: left;
+        }
+      </style>
+    </head>
+    <body>
+    
+      <h2>Formulário</h2>
+    
+      <form action="#" method="post">
+        <table>
+          <tr>
+            <th>Nome</th>
+            <th>Email</th>
+            <th>Telefone</th>
+          </tr>
+          <tr>
+            <td><input type="text" name="nome[]" required></td>
+            <td><input type="email" name="email[]" required></td>
+            <td><input type="tel" name="telefone[]" required></td>
+            <td><input type="text" name="produto[]" required></td>
+          </tr>
+        </table>
+    
+        <br>
+    
+        <input type="submit" value="Enviar">
+      </form>
+    </body>
+    </html>
